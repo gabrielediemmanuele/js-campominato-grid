@@ -18,3 +18,17 @@ function gridGenerator() {
     grid.append(cell);
   }
 }
+
+// Creo una funzione riciclabile per generare le celle
+function cellGenerator(i) {
+  const cell = document.createElement("div");
+  cell.classList.add("cell");
+  cell.innerHTML = i;
+
+  cell.addEventListener("click", function () {
+    this.classList.add("lightskyblue");
+    console.log(i);
+  });
+
+  return cell;
+}
