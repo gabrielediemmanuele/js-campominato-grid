@@ -1,0 +1,28 @@
+/* Debug */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/** Griglia **/
+#grid {
+  width: 600px;
+  height: 600px;
+  background-color: blue;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cell {
+  width: calc(100% / 10);
+  aspect-ratio: 1;
+  border: 1px solid limegreen;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.lightskyblue {
+  background-color: lightskyblue;
+}
