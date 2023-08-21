@@ -6,3 +6,15 @@ const grid = document.getElementById("grid");
 button.addEventListener("click", function () {
   gridGenerator(); //** Aggancio alla funzione */
 });
+
+// Creo la funzione per generare la griglia in modo riciclabile
+function gridGenerator() {
+  //** Creo un ciclo for per le celle */
+  for (let i = 1; i <= 100; i++) {
+    //** Creo una cella */
+    const cell = cellGenerator(i);
+
+    //** uso append per aggiungere la cella alla griglia */
+    grid.append(cell);
+  }
+}
