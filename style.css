@@ -65,6 +65,23 @@
   padding: 15px;
 }
 
+#difficulty {
+  border-style: none;
+  background-color: #021631;
+  color: white;
+  padding: 8px 12px;
+  font-size: 18px;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-right: 15px;
+}
+
+#difficulty:hover {
+  background-color: #6ed663;
+  color: #021631;
+}
+
 /**? JS **/
 /** Griglia **/
 #grid {
