@@ -4,6 +4,7 @@ const grid = document.getElementById("grid");
 
 // Dò al bottone l'evento del click per generare la griglia.
 button.addEventListener("click", function () {
+  grid.innerHTML = ""; //! Per svuotare al click */
   gridGenerator(); //** Aggancio alla funzione */
 });
 
