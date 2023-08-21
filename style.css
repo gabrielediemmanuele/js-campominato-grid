@@ -6,6 +6,9 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.container {
+  background-color: #6ed663;
+}
 /**? Style **/
 .head-cont {
   width: 100%;
